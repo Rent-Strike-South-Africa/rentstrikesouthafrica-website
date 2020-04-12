@@ -4183,4 +4183,6 @@ input, select, textarea {
 	position:absolute;
 	left:10px;
 	top:10px;
+	/* Put this above .desknav, so the click area doesn't get obscured. */
+	z-index:100000;
 }
